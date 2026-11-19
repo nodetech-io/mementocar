@@ -1,0 +1,34 @@
+Las llaves de casa, la compra en el maletero, el tique de la zona azul. Memento Car te lo recuerda justo cuando importa: al subir o al bajar del coche.
+
+La app detecta cuándo tu móvil se conecta o se desconecta del Bluetooth de tu coche y te muestra los recordatorios que has preparado para ese momento. No necesitas ningún aparato extra: solo el Bluetooth que ya usas en el coche.
+
+CÓMO FUNCIONA
+• Asocia tu coche una vez, eligiendo su Bluetooth entre los dispositivos emparejados.
+• Crea recordatorios «Al salir» o «Al entrar».
+• Cuando el móvil se conecta o se desconecta del coche, recibes una notificación con lo pendiente.
+• Marca cada cosa con «Completar» o usa «Posponer 10 min» si ahora no puedes.
+
+RECORDATORIOS A TU MEDIDA
+• Frecuencia: solo una vez o cada vez que subes o bajas del coche.
+• Elige los días de la semana en que se aplica cada recordatorio.
+• Marca como «Importante» lo que no puede fallar: el aviso se repite hasta que lo completes o lo pospongas.
+• Retraso opcional del aviso: inmediato o tras 1, 5, 10 o 30 minutos.
+• Varios coches, cada uno con sus propios recordatorios.
+
+DICTA SIN TOCAR LA PANTALLA
+• Crea recordatorios hablando, en español, catalán o inglés. Por ejemplo: «comprar pan al salir».
+• Antes de guardar puedes revisar el recordatorio, el coche y el momento, y corregirlos con la voz.
+• Usa la voz también con los avisos pendientes: «marcar llaves», «posponer» o «todo listo».
+• Añade el acceso «Nuevo aviso» a los Ajustes rápidos para empezar a dictar desde cualquier pantalla.
+
+TODO BAJO CONTROL
+• La pestaña «Estado» comprueba los permisos, el Bluetooth del coche y la última alerta, y te ayuda a enviar una alerta de prueba.
+• Exporta e importa una copia de tus coches y recordatorios en un archivo.
+
+GRATIS Y SIN CUENTAS
+Todas las funciones son gratuitas: sin anuncios, sin compras dentro de la app y sin crear ninguna cuenta.
+
+PRIVACIDAD
+Memento Car guarda tus coches y recordatorios en tu dispositivo y no tiene ningún servidor propio de recordatorios. Las funciones de voz son opcionales y usan los servicios de voz de tu móvil, que pueden procesar datos en línea.
+
+Requiere un coche con Bluetooth emparejado con tu móvil.

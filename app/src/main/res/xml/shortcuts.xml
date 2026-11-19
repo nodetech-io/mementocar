@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="open_checklist"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_open_checklist_short"
+        android:shortcutLongLabel="@string/shortcut_open_checklist_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.nodetech.mementocar"
+            android:targetClass="io.nodetech.mementocar.MainActivity" />
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:key="feature"
+                android:value="checklist" />
+        </capability-binding>
+    </shortcut>
+    <shortcut
+        android:shortcutId="add_voice_reminder"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_add_voice_reminder_short"
+        android:shortcutLongLabel="@string/shortcut_add_voice_reminder_long">
+        <intent
+            android:action="io.nodetech.mementocar.ADD_VOICE_REMINDER"
+            android:targetPackage="io.nodetech.mementocar"
+            android:targetClass="io.nodetech.mementocar.MainActivity" />
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:key="feature"
+                android:value="add voice reminder" />
+        </capability-binding>
+    </shortcut>
+</shortcuts>

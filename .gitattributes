@@ -1,0 +1,11 @@
+# Normalize line endings so clones on any platform build and diff the same way.
+* text=auto eol=lf
+
+# Windows scripts need CRLF.
+*.bat text eol=crlf
+
+# Binary files: never convert or diff as text.
+*.jar binary
+*.png binary
+*.webp binary
+*.jpg binary

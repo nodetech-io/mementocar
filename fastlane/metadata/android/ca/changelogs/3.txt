@@ -1,0 +1,2 @@
+• Memento Car ara és programari lliure (GPL-3.0). A Configuració › Quant a trobaràs l'enllaç al codi font.
+• Millores en els textos en català.

@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an improvement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Memento Car has no accounts, ads or tracking, and data stays on the device by default. See [CONTRIBUTING.md](https://github.com/nodetech-io/mementocar/blob/main/CONTRIBUTING.md) for what fits the project.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve?
+      description: Describe the situation in the car where the app falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like the app to do?
+    validations:
+      required: true

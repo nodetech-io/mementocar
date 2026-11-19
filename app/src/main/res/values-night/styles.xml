@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MementoCar" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        <item name="android:statusBarColor">#101817</item>
+        <item name="android:navigationBarColor">#101817</item>
+        <item name="android:windowBackground">#101817</item>
+        <item name="android:colorAccent">#83D3DC</item>
+    </style>
+</resources>

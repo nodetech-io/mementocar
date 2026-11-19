@@ -1,0 +1,2 @@
+• Memento Car ahora es software libre (GPL-3.0). En Ajustes › Acerca de encontrarás el enlace al código fuente.
+• Mejoras en los textos en catalán.

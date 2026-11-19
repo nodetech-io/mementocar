@@ -1,0 +1,2 @@
+• Memento Car is now free software (GPL-3.0). Settings › About links to the source code.
+• Improved Catalan texts.

@@ -1,0 +1,57 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please check that there is no [existing issue](https://github.com/nodetech-io/mementocar/issues?q=is%3Aissue) about the same problem.
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Settings › About › Version
+      placeholder: "0.2.1 (3)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+      placeholder: "Pixel 8, Android 15"
+    validations:
+      required: true
+  - type: input
+    id: car
+    attributes:
+      label: Car or Bluetooth device
+      description: Only if the problem is about car detection or alerts.
+      placeholder: "Seat Ibiza 2019, built-in Bluetooth"
+  - type: dropdown
+    id: language
+    attributes:
+      label: App language
+      options: [English, Spanish, Catalan]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Create a reminder "When leaving"
+        2. Turn off the car
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: Status tab
+      description: What the Status tab shows (a screenshot helps). Remove anything you consider private.

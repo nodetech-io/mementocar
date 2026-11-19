@@ -1,0 +1,6 @@
+# Copy to release-signing.properties (git-ignored) and fill in your own upload key.
+# See docs/release.md#1-signing. Never commit the real file or the keystore.
+storeFile=/absolute/path/to/upload.jks
+storePassword=change-me
+keyAlias=upload
+keyPassword=change-me

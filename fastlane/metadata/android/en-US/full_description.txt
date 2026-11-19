@@ -1,0 +1,34 @@
+Your house keys, the groceries in the trunk, the parking ticket. Memento Car reminds you right when it matters: when you get in or out of your car.
+
+The app detects when your phone connects to or disconnects from your car's Bluetooth and shows the reminders you set for that moment. No extra device needed: just the Bluetooth you already use in your car.
+
+HOW IT WORKS
+• Link your car once by picking its Bluetooth from your paired devices.
+• Create reminders "When leaving" or "When entering".
+• When your phone connects to or disconnects from the car, you get a notification with what's pending.
+• Tick each item with "Complete", or use "Snooze 10 min" if now isn't a good time.
+
+REMINDERS THAT FIT YOUR ROUTINE
+• Frequency: just once, or every time you get in or out of the car.
+• Choose the days of the week each reminder applies.
+• Mark what really can't be missed as "Important": the alert repeats until you complete or snooze it.
+• Optional alert delay: immediate, or after 1, 5, 10 or 30 minutes.
+• Several cars, each with its own reminders.
+
+HANDS-FREE DICTATION
+• Create reminders by voice in English, Spanish or Catalan. For example: "buy bread when leaving".
+• Before saving, review the reminder, the car and the moment, and correct them by voice.
+• Use your voice with pending alerts too: "mark keys", "snooze" or "all done".
+• Add the "New reminder" tile to Quick Settings to start dictating from any screen.
+
+STAY IN CONTROL
+• The "Status" tab checks permissions, your car's Bluetooth and the latest alert, and helps you send a test alert.
+• Export and import a backup of your cars and reminders as a file.
+
+FREE, NO ACCOUNT
+Every feature is free: no ads, no in-app purchases and no account to create.
+
+PRIVACY
+Memento Car stores your cars and reminders on your device and has no developer-owned reminder server. Voice features are optional and use your phone's speech services, which may process data online.
+
+Requires a car with Bluetooth paired to your phone.

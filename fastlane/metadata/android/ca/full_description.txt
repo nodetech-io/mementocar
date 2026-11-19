@@ -1,0 +1,34 @@
+Les claus de casa, la compra al maleter, el tiquet de la zona blava. Memento Car t’ho recorda just quan importa: en pujar o en baixar del cotxe.
+
+L’app detecta quan el mòbil es connecta o es desconnecta del Bluetooth del cotxe i et mostra els recordatoris que has preparat per a aquell moment. No cal cap aparell addicional: només el Bluetooth que ja fas servir al cotxe.
+
+COM FUNCIONA
+• Associa el cotxe una sola vegada, triant-ne el Bluetooth entre els dispositius emparellats.
+• Crea recordatoris «En sortir» o «En entrar».
+• Quan el mòbil es connecta o es desconnecta del cotxe, reps una notificació amb el que tens pendent.
+• Marca cada cosa amb «Completar» o fes servir «Ajornar 10 min» si ara no pots.
+
+RECORDATORIS A LA TEVA MIDA
+• Freqüència: només una vegada o cada vegada que puges al cotxe o en baixes.
+• Tria els dies de la setmana en què s’aplica cada recordatori.
+• Marca com a «Important» el que no pot fallar: l’avís es repeteix fins que el completis o l’ajornis.
+• Retard opcional de l’avís: immediat o al cap d’1, 5, 10 o 30 minuts.
+• Diversos cotxes, cadascun amb els seus recordatoris.
+
+DICTA SENSE TOCAR LA PANTALLA
+• Crea recordatoris parlant, en català, castellà o anglès. Per exemple: «comprar pa en sortir».
+• Abans de desar, pots revisar el recordatori, el cotxe i el moment, i corregir-los amb la veu.
+• Fes servir la veu també amb els avisos pendents: «marcar claus», «ajornar» o «tot llest».
+• Afegeix l’accés «Nou avís» a la configuració ràpida per començar a dictar des de qualsevol pantalla.
+
+TOT SOTA CONTROL
+• La pestanya «Estat» comprova els permisos, el Bluetooth del cotxe i l’última alerta, i t’ajuda a enviar una alerta de prova.
+• Exporta i importa una còpia dels teus cotxes i recordatoris en un fitxer.
+
+GRATUÏTA I SENSE COMPTES
+Totes les funcions són gratuïtes: sense anuncis, sense compres dins l’app i sense crear cap compte.
+
+PRIVADESA
+Memento Car desa els teus cotxes i recordatoris al dispositiu i no té cap servidor propi de recordatoris. Les funcions de veu són opcionals i fan servir els serveis de veu del mòbil, que poden processar dades en línia.
+
+Cal un cotxe amb Bluetooth emparellat amb el mòbil.
