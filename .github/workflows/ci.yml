@@ -28,7 +28,7 @@ jobs:
       - uses: android-actions/setup-android@v4
 
       - name: Install Android platform
-        run: sdkmanager "platforms;android-37"
+        run: sdkmanager "platforms;android-37.0"
 
       # Also validates the Gradle wrapper JAR. The basic provider keeps caching on actions/cache (MIT)
       # instead of the proprietary enhanced cache.
