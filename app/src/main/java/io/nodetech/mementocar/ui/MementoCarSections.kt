@@ -34,7 +34,6 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.material3.rememberSwipeToDismissBoxState
-import androidx.compose.material3.SwipeToDismissBoxValue
 import androidx.compose.material3.SwipeToDismissBox
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -430,16 +429,12 @@ internal fun DismissibleMessageBanner(
     modifier: Modifier = Modifier,
 ) {
     val dismissLabel = stringResource(R.string.dismiss_message)
-    val dismissState = rememberSwipeToDismissBoxState(
-        confirmValueChange = { value ->
-            if (value != SwipeToDismissBoxValue.Settled) onDismiss()
-            true
-        },
-    )
+    val dismissState = rememberSwipeToDismissBoxState()
     SwipeToDismissBox(
         state = dismissState,
         modifier = modifier,
         backgroundContent = {},
+        onDismiss = { onDismiss() },
     ) {
         MessageBanner(
             message = message,
