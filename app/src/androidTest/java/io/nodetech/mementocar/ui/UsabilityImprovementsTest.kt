@@ -21,6 +21,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.test.SemanticsNodeInteraction
+import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertIsOff
 import androidx.compose.ui.test.assertIsOn
 import androidx.compose.ui.test.getUnclippedBoundsInRoot
@@ -31,6 +32,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.test.swipeLeft
+import androidx.compose.ui.test.swipeRight
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.DpRect
@@ -175,13 +177,26 @@ class UsabilityImprovementsTest {
         composeRule.waitUntil(5_000) { composeRule.onAllNodesWithTextCompat("Hello message").isEmpty() }
     }
 
-    private fun showMessage(kind: MessageKind) {
+    @Test
+    fun nextMessageStaysVisibleAfterSwipeAndDismissesInTheOtherDirection() {
+        showMessage(MessageKind.Error, "Hello message", "Second message")
+        composeRule.onNodeWithText("Hello message").performTouchInput { swipeLeft() }
+        composeRule.waitUntil(5_000) { composeRule.onAllNodesWithTextCompat("Second message").isNotEmpty() }
+        composeRule.waitForIdle()
+        composeRule.onNodeWithText("Second message").assertIsDisplayed()
+        composeRule.onNodeWithText("Second message").performTouchInput { swipeRight() }
+        composeRule.waitUntil(5_000) { composeRule.onAllNodesWithTextCompat("Second message").isEmpty() }
+    }
+
+    private fun showMessage(kind: MessageKind, vararg messages: String = arrayOf("Hello message")) {
         val hostState = SnackbarHostState()
         composeRule.setContent {
             MementoCarTheme {
                 val scope = rememberCoroutineScope()
                 androidx.compose.runtime.LaunchedEffect(Unit) {
-                    scope.launch { hostState.showSnackbar(MessageSnackbarVisuals(UiMessage("Hello message", kind))) }
+                    scope.launch {
+                        messages.forEach { hostState.showSnackbar(MessageSnackbarVisuals(UiMessage(it, kind))) }
+                    }
                 }
                 Box(Modifier.padding(16.dp)) {
                     SnackbarHost(hostState) { data ->
@@ -194,7 +209,7 @@ class UsabilityImprovementsTest {
                 }
             }
         }
-        composeRule.waitUntil(5_000) { composeRule.onAllNodesWithTextCompat("Hello message").isNotEmpty() }
+        composeRule.waitUntil(5_000) { composeRule.onAllNodesWithTextCompat(messages.first()).isNotEmpty() }
     }
 
     private fun dayBounds(): List<DpRect> = activeDayOptions.map {
